@@ -41,7 +41,8 @@
   }
 
   #down-arrow {
-      margin-bottom: 10px;
+    position:relative;
+    top: 20px;
   }
 
   #right-arrow {
@@ -85,8 +86,20 @@
   }
 
   .Bad {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 63px;
+      width: 63px;
+      border: 2px solid black;
       background-color: #0B5931;
       color: white;
+  }
+
+  .Bad p {
+      font-size: 20px;
+      padding: 1px;
   }
 
   .blue-element-col-1 {
