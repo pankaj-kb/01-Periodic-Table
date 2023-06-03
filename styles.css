@@ -9,8 +9,9 @@
   }
 
   p {
-    font-weight: 500;
+      font-weight: 500;
   }
+
   .top-numbers {
       display: flex;
       flex-direction: row;
@@ -136,6 +137,78 @@
   }
 
   .blue-element p {
+      font-size: 20px;
+      padding: 1px;
+  }
+
+  /* Yello Elements */
+
+  .yellow-element-col-1 {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      position: absolute;
+      top: 22.7%;
+      left: 51.6%;
+  }
+
+  .yellow-element-col-2 {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      position: absolute;
+      top: 22.7%;
+      left: 55.3%;
+  }
+
+  .yellow-element-col-3 {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      position: absolute;
+      top: 22.7%;
+      left: 59%;
+  }
+
+  .yellow-element-col-4 {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      position: absolute;
+      top: 22.7%;
+      left: 62.7%;
+  }
+
+  .yellow-element-col-5 {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      position: absolute;
+      top: 22.7%;
+      left: 66.3%;
+  }
+
+  .yellow-element-col-6 {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      position: absolute;
+      top: 15%;
+      left: 70%;
+  }
+
+  .yellow-element {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 63px;
+      width: 63px;
+      background-color: #FDFF8D;
+      border: 2px solid black;
+  }
+
+  .yellow-element p {
       font-size: 20px;
       padding: 1px;
   }
