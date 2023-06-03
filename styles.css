@@ -32,6 +32,8 @@
       display: flex;
       flex-direction: column;
       gap: 50px;
+      margin-left: 15px;
+      margin-top: 5px;
   }
 
   .left-numbers p {
@@ -41,8 +43,8 @@
   }
 
   #down-arrow {
-    position:relative;
-    top: 20px;
+      position: relative;
+      top: 20px;
   }
 
   #right-arrow {
@@ -100,6 +102,27 @@
   .Bad p {
       font-size: 20px;
       padding: 1px;
+  }
+
+  .single-asterik-1 {
+      position: absolute;
+      left: 14.6%;
+      top: 52%;
+  }
+
+  .double-asterik-1 {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 58.5%;
+      left: 14.1%;
+      gap: 2px;
+  }
+
+  .asterik {
+      font-size: 25px;
+      width: 20px;
+      height: 20px;
   }
 
   .blue-element-col-1 {
@@ -206,7 +229,7 @@
       flex-direction: column;
       gap: 5px;
       position: absolute;
-      top: 15%;
+      top: 15.4%;
       left: 70%;
   }
 
@@ -222,6 +245,42 @@
   }
 
   .yellow-element p {
+      font-size: 20px;
+      padding: 1px;
+  }
+
+  /* Green Rows */
+
+  .green-element-col-1 {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      position: absolute;
+      top: 70%;
+      left: 15.5%;
+  }
+
+  .green-element-col-2 {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      position: absolute;
+      top: 77.5%;
+      left: 15.5%;
+  }
+
+  .green-element {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 63px;
+      width: 63px;
+      background-color: #9CFF9A;
+      border: 2px solid black;
+  }
+
+  .green-element p {
       font-size: 20px;
       padding: 1px;
   }
